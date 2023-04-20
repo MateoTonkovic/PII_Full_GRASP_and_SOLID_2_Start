@@ -10,7 +10,7 @@ namespace Full_GRASP_And_SOLID.Library
 
     public class ConsolePrinter 
     // La implementación de esta clase se basa en el Principio SRP, ya que tiene una única responsabilidad de imprimir la receta en la consola. 
-    // Además utiliza el Patrón Expert, ya que tiene acceso a la información necesaria para imprimir la receta (que está dentro de Receipe).
+    // Además utiliza el Patrón Expert, ya que tiene acceso a la información necesaria para imprimir la receta (que está dentro de Recipe).
     {
 
         private string Message;
